@@ -5,7 +5,7 @@ services:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: kastro  # replace with your MySQL root password
+      MYSQL_ROOT_PASSWORD: anu  # replace with your MySQL root password
       MYSQL_DATABASE: cricket_db
     volumes:
       - db_data:/var/lib/mysql
@@ -20,7 +20,7 @@ services:
     environment:
       DB_HOST: db
       DB_USER: root
-      DB_PASS: your_password  # replace with your MySQL root password
+      DB_PASS: anu  # replace with your MySQL root password
 
 volumes:
   db_data:
